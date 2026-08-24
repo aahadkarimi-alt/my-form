@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div id="body-div">
+        <h2 class="form-title">Sign up</h2>
+        <form>
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname"  class="input-form" placeholder="a.g. Yaser Karimi">
+            
+            <label for="email">Email</label>
+            <input type="email" name="name" id="email"  class="input-form" placeholder="You@example.com"> 
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"  class="input-form" placeholder="choose a strong password">
+
+            <label for="bio">Short bio</label>
+            <textarea name="bio" id="bio"  class="input-form text-area" placeholder="tell us bit about yourself" rows="3"></textarea>  
+            
+
+            <label>Countery</label>
+             <select name="" id="" class="input-form" >
+                <option value="" disabled selected>Select countery</option>
+              <option value="usa">USA</option>
+              <option value="germany">Germany</option>
+              <option value="Khorasan">Khorasan</option>
+              <option value="Tajikestan">Tajikestan</option>
+              </select>
+
+              <label>Gender</label>
+               <div class="radio-group">
+
+              <label>
+                <input type="radio" name="gender">Male
+              </label>
+
+              <label>
+                <input type="radio" name="gender">Women
+              </label>
+
+              <label>
+                <input type="radio" name="gender">Other
+              </label>
+              </div>
+            <br>
+            <br>
+
+            <button type="submit" class="button-register">Register</button>
+        </form>
+    </div>
+    
+</body>
+</html>

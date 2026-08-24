@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background: rgb(204, 172, 219);
+}
+ input ,textarea ,select ,button {
+    font-family: sans-serif;
+    font-size: 16px;
+ }
+.form-title {
+    text-align: center;
+}
+
+#body-div {
+    background: white;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 16px;
+    padding: 20px 28px;
+    box-shadow: 0 12px 24px rgb(42, 32, 32);
+}
+#body-div .text-area {
+   resize: none; 
+}
+#body-div .form-title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#body-div .input-form {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(235, 229, 229);
+    margin-bottom: 16px;
+    outline: none;
+}
+
+#body-div .input-form:focus {
+    border-color: rgb(217, 160, 216);
+}
+#body-div .inout-form::placeholder {
+    color: rgb(255, 0, 0);
+}
+
+
+#body-div .radio-group {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-button: 16px;
+
+
+}
+#body-div .radio-group label {
+    color: rgb(216, 128, 187);
+}
+#body-div .button-register {
+    background: rgb(211, 74, 235);
+    color: aliceblue;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all;
+
+    
+
+}
+#body-div .button-register:hover {
+   background: rgb(149, 20, 171);
+}
+
+
